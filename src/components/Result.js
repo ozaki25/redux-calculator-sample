@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Result() {
+function Result({ result }) {
   return (
     <div>
-      Result: <span>some value</span>
+      Result: <span>{result}</span>
     </div>
   );
 }
